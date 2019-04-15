@@ -11,10 +11,31 @@ public class Main {
 
 
 
-        Gym first = new Gym("CityFit", "Poznan", 2, "Cardio", "Strength", 1232);
-        System.out.println(first.getNumberOfInventory());
-        first.addInventory(2);
-        System.out.println(first.getNumberOfInventory());
+//        Gym first = new Gym("CityFit", "Poznan", 2, "Cardio", "Strength", 1232);
+//        System.out.println(first.getNumberOfInventory());
+//        first.addInventory(2);
+//        System.out.println(first.getNumberOfInventory());
+
+
+
+
+//        Stack test = new Stack();
+//        test.pop();
+//        test.push(12);
+//        test.push(23);
+//        test.push(123);
+//        test.push(2);
+//        test.push(124312);
+//        test.pop();
+//        System.out.println(test.pop());
+
+        Queue test = new Queue();
+        test.enqueu(0);
+        test.enqueu(4);
+        test.enqueu(21);
+
+        test.dequeue();
+
 
 
 

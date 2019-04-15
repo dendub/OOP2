@@ -7,7 +7,7 @@ public class Gym
     private String sectionName2;
     private int numberOfInventory;
 
-    public Gym(String name_, String cityAdress_, int numberOfSections_, String sectionName1_, String sectionName2_, int numberOfInventory_) {
+    public Gym(String name_, String cityAdress_, int numberOfSections_, String sectionName1_,String sectionName2_, int numberOfInventory_) {
         name = name_;
         cityAdress = cityAdress_;
         numberOfSections = numberOfSections_;
